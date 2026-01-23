@@ -2,7 +2,7 @@
 
 ---
 
-## Day 1: Introduction to CSS and Basic Selectors
+## Lesson 1: Introduction to CSS and Basic Selectors
 - [x] What is CSS and how it works (Introduction to Cascading Style Sheets)
 - [x] Adding CSS to HTML (Inline, Internal, External)
 - [x] Basic Syntax and Rules (Selectors, Properties, Values)
@@ -17,7 +17,7 @@
 
 ---
 
-## Day 2: Styling Text, Colors, and Layout
+## Lesson2: Styling Text, Colors, and Layout
 - [ ] Text Properties (font-family, font-size, font-weight, line-height, text-align)
 - [ ] Color Systems (Named colors, Hex, RGB, RGBA)
 - [ ] Backgrounds (Color, Images, Repeat, Position)
@@ -33,7 +33,7 @@
 
 ---
 
-## Day 3: Positioning, Flexbox, and Sizing
+## 3: Positioning, Flexbox, and Sizing
 - [ ] CSS Positioning (Static, Relative, Absolute, Fixed)
 - [ ] Z-index and Layering
 - [ ] Floating and Clearing Elements
@@ -48,7 +48,7 @@
 
 ---
 
-## Day 4: Responsive Design with Media Queries
+## Lesson 4: Responsive Design with Media Queries
 - [ ] Introduction to Responsive Design (Mobile-First Approach)
 - [ ] Understanding Viewport and Units (px, %, em, rem, vh, vw)
 - [ ] Media Queries (min-width, max-width)
@@ -63,7 +63,7 @@
 
 ---
 
-## Day 5: Advanced CSS Techniques and Final Project
+## Lesson 5: Advanced CSS Techniques and Final Project
 - [ ] CSS Grid (Grid Container, Grid Item, Columns, Rows, Template Areas)
 - [ ] Transitions and Animations
 - [ ] Combining Flexbox and Grid for Layout

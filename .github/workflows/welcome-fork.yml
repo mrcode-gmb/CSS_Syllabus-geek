@@ -1,0 +1,57 @@
+name: Setup Fork Assignment
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+
+jobs:
+  initial-assignment:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create First Lesson Issue
+        uses: imjohnbo/issue-bot@v3
+        with:
+          assignees: "${{ github.actor }}"
+          labels: "learning, CSS-Beginner"
+          title: "Lesson1: Introduction to CSS and Basic Selectors"
+          body: |
+            ## Welcome to the GeekInk Builders CSS Course! 🚀
+            
+            To stay organized, every GeekInk Builder must follow these professional standards:
+
+            ### 📂 Repository Naming Convention
+            For this lesson, name your new repository:
+            `geekink-css-lesson-1`
+
+            ### 🏗️ Standard Folder Structure
+            Your repository must be organized exactly like this:
+            
+
+            ```text
+            geekink-css-lesson-1/
+            ├── index.html       # Main content
+            ├── css/
+            │   └── styles.css   # All styles
+            ├── js/
+            │   └── index.js     # Any scripts
+            └── README.md        # Description of your work
+            ```
+
+            ### 📝 Lesson 1 Assignment:
+            - [ ] Create your repository using the name `geekink-css-lesson-1`.
+            - [ ] Setup the folder structure and link `css/styles.css` to `index.html`.
+            - [ ] Apply styles using element, class, and ID selectors.
+            - [ ] Use `px`, `%`, `em`, and `rem` for margins and font sizes.
+            - [ ] Document your learning in the `README.md`.
+
+            ---
+            **Pro Tip:** Keeping a consistent name like `geekink-css-lesson-X` will help you find your work quickly during your final project!
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
