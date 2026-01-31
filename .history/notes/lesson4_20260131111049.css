@@ -26,6 +26,7 @@
     text-decoration: none;
     font-size: 20px;
 }
+
 .links a:hover{
     color: blue;
 }
@@ -55,13 +56,13 @@
         height: 70px;  
         border-radius: 20px;
     }
+    
 }
-
-
 @media screen and (max-width: 500px){
     .navigation{
         background: #e8e2e2;
         flex-direction: column;
+        justify-content: left;
         gap: 20px;
     }
     .navigation h4{

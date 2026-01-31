@@ -39,6 +39,9 @@
     height: 100px;  
     border-radius: 50%;
 }
+@media screen and ()
+/* 
+
 @media screen and (max-width: 1000px){
     .navigation{
         background: red;
@@ -55,13 +58,13 @@
         height: 70px;  
         border-radius: 20px;
     }
+    
 }
-
-
 @media screen and (max-width: 500px){
     .navigation{
         background: #e8e2e2;
         flex-direction: column;
+        justify-content: left;
         gap: 20px;
     }
     .navigation h4{
@@ -74,4 +77,4 @@
         height: 50px;  
         border-radius: 0px;
     }
-}
+} */

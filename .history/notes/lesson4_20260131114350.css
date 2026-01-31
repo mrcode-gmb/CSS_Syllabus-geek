@@ -61,7 +61,8 @@
 @media screen and (max-width: 500px){
     .navigation{
         background: #e8e2e2;
-        flex-direction: column;
+        /* flex-direction: column; */
+        justify-content: left;
         gap: 20px;
     }
     .navigation h4{

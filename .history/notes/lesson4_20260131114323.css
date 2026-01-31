@@ -62,6 +62,7 @@
     .navigation{
         background: #e8e2e2;
         flex-direction: column;
+        justify-content: left;
         gap: 20px;
     }
     .navigation h4{
