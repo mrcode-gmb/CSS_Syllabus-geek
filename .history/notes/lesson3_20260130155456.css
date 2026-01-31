@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: auto;
+    right: 20px;
+    bottom: 20px;
+}
+.header h5{
+    margin: auto;
+}
+
+.position-style{
+    width: 100%;
+    padding: 10px;
+    background: blue;
+    position: relative;
+}
+.position-style h2{
+    pos
+}
