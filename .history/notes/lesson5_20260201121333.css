@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    display: grid;
+    background: #efefef;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+    margin-top: 25%;
+}
+
+.grid-container .grid-item{
+    background: black;
+    color: white;
+    transition: 0.5s ease;
+    animation: fadeIn infinite alternate linear;
+    animation-duration: 1s;
+}
+
+.grid-container .grid-item:hover{
+    background: red;
+    /* transform: rotate(60deg); */
+}
+
+.col-span-2{
+    display: flex;
+    gap: 10px;
+}
+.col-span-2 img{
+    width: 100px;
+}
+
+button{
+    padding: 30px 50px;
+    background: red;
+    transition: 0.2s ease;
+}
+button:hover{
+    background-color: green;
+    transform: scale(100%);
+
+}
+
+@keyframes fadeIn{
+    from{
+        /* opacity: 1; */
+        /* transform: rotate(0deg); */
+        
+        background: black;
+    }
+    to{
+        /* opacity: 0.1; */
+        /* transform: rotate(360deg); */
+        background: blue;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .grid-container{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
